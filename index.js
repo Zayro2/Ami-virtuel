@@ -19,7 +19,7 @@ app.post("/chat", async (req, res) => {
     },
     body: JSON.stringify({
       model: "gpt-5-mini",
-      messages: [{role:"user", content: msg}]
+      messages: [{ role: "user", content: msg }]
     })
   });
 
